@@ -1,0 +1,6 @@
+<p>ecma-index works!</p>
+<label>Ingresa tu edad:</label>
+<input [(ngModel)]="edad" type="number">
+<div *ngIf="edad && edad!=0">
+<b class="color-blue">Tu edad es:</b><b>{{edad}}</b>
+</div>
